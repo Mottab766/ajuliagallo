@@ -18,7 +18,13 @@ const Button = styled.a`
   &:hover {
     background-color: #128C7E; /* Cor do botão ao passar o mouse */
   }
+
+  @media (max-width: 768px) {
+    padding: 1rem; /* Aumenta o padding em telas menores */
+    font-size: 1.2rem; /* Aumenta o tamanho da fonte em telas menores */
+  }
 `;
+
 
 const WhatsappButton = ({ numero, mensagem }) => {
   // Gera o link do WhatsApp

@@ -37,7 +37,7 @@ const Cabecalho = () => {
       <SobreMim />
       <Trabalhos />
       <WhatsappButton 
-        numero="21968707701" // Substitua pelo número desejado
+        numero="5521998130718" // Substitua pelo número desejado
         mensagem="Olá, gostaria de mais informações sobre os seus serviços!" // Mensagem pré-definida
       />
     </EstiloCab>
