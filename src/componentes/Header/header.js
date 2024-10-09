@@ -4,6 +4,7 @@ import VideoIntro from '../video/video';
 import Trabalhos from '../MeusTrabalhos/Trabalhos';
 import WhatsappButton from '../BotãoWhatsapp/Botao';
 import SobreMim from '../Descricao/SobreMim';
+import WhatsappButton2 from '../Botao2/Botao2';
 
 const EstiloCab = styled.div`
   background-color: #d7c2ce;
@@ -40,6 +41,10 @@ const Cabecalho = () => {
         numero="5521998130718" // Substitua pelo número desejado
         mensagem="Olá, gostaria de mais informações sobre os seus serviços!" // Mensagem pré-definida
       />
+      <WhatsappButton2
+       numero="5521998130718" // Substitua pelo número desejado
+       mensagem="Olá, gostaria de mais informações sobre os seus serviços!" // Mensagem pré-definida
+     />
     </EstiloCab>
   );
 };
