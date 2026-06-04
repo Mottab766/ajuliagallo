@@ -11,6 +11,10 @@ export default function StoriesSection() {
   const containerRef = useRef(null);
 
   useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  useEffect(() => {
     const container = containerRef.current;
     if (!container) return;
     const second = container.children[1];
