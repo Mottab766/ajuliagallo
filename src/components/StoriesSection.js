@@ -21,6 +21,7 @@ export default function StoriesSection() {
     if (second) {
       second.scrollIntoView({ inline: 'center', block: 'nearest', behavior: 'instant' });
     }
+    window.scrollTo(0, 0);
   }, []);
 
   return (
