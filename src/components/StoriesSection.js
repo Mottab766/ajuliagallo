@@ -3,9 +3,9 @@ import VideoPlayer from './VideoPlayer';
 
 export default function StoriesSection() {
   const vids = [
-    '/videos/story1.mp4',
-    '/videos/story2.mp4',
-    '/videos/story3.mp4',
+    'https://res.cloudinary.com/dawfy6ocd/video/upload/v1780611088/story1_ntcnxx.mp4',
+    'https://res.cloudinary.com/dawfy6ocd/video/upload/v1780611516/story2_yxpyl1.mp4',
+    'https://res.cloudinary.com/dawfy6ocd/video/upload/v1780611090/story3_izfmmi.mp4',
   ];
 
   const containerRef = useRef(null);

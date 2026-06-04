@@ -6,7 +6,7 @@ export default function HeroSection() {
       <div className="hero-video-wrapper">
         <video
           className="hero-video"
-          src="/videos/Footer.mp4"
+          src="https://res.cloudinary.com/dawfy6ocd/video/upload/v1780611069/Footer_wtf95r.mp4"
           autoPlay
           muted
           loop

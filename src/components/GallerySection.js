@@ -5,7 +5,7 @@ export default function GallerySection() {
     <section className="gallery-section">
       <video
         className="gallery-bg-video"
-        src="/videos/galery.mp4"
+        src="https://res.cloudinary.com/dawfy6ocd/video/upload/v1780611084/galery_czomph.mp4"
         autoPlay
         muted
         loop
